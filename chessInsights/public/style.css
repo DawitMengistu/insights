@@ -1,0 +1,152 @@
+:root{
+    --bgFull: rgb(49,46,43);
+    --bgHigh: rgb(39,37,34);;
+    --bgMid: #666564;
+    --bgLow: #8b8987;
+    --bgLower: #bebdb9;
+
+    --headerContainer: rgb(33,32,29);
+
+    --white: #fff;
+    --red: #b23330;
+    --green: #85a94e;
+    --gray-draw: #958987;
+}
+.heading-pos {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    align-items: center;
+    padding: 0 40px;
+}
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-weight: 500;
+    background-color: var(--bgFull);
+}
+.header-container{
+    background-color: var(--bgFull);
+    height: 100px;
+    margin-bottom: 40px;
+}
+.data-icon {
+    width: 22px;
+    height: 22px;
+}
+.header-name {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 1.5rem;
+    color: var(--white);
+}
+.first-section, 
+.second-section {
+    margin: 0 30px;
+}
+.big-container {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+}
+ .profile-container {
+    height: 70px;
+    background-color: var(--headerContainer);
+    margin-bottom: 40px;
+ }
+
+ .game-rating-container {
+    background-color: var(--bgHigh);
+ }
+ .container-name {
+    height: 70px;
+    background-color: var(--headerContainer);
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 1.2rem;
+    color: var(--white);
+ }
+
+ .high-low {
+    margin-bottom: 0;
+ }
+.game-info-box {
+    margin-top: 30px;
+}
+ .game-info-container {
+    display: grid;
+    grid-template-columns: 2fr 0.1fr  1fr 1fr;
+    padding: 0 40px;
+    margin-bottom: 40px;
+    align-items: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 0.7rem;
+    color: var(--white);
+ }
+ .date-rapid {
+    display: inline;
+    color: var(--bgLow);
+ }
+
+
+
+ .line-between {
+    width: 90%;
+    height: 1px;
+    background-color: var(--bgLow);
+    margin: 40px auto;
+ }
+
+ .list-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    margin: 20px 0 0 40px;
+
+ }
+.list-item-container {
+    display: grid;
+    grid-template-columns: 0.5fr 1fr 0.5fr;
+    margin: 10px 0;
+    align-items: center;
+}
+
+.list-item-text, 
+.list-item-value {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.1rem;
+    font-weight: bold;
+    color: var(--white);
+}
+.in-icons {
+    margin-right: 5px;
+    margin-bottom: 2px;
+}
+
+.icon-text-container {
+    display: flex;
+    align-items: center;
+    
+}
+.mulit-graph {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.game-info-container-multi {
+    display: grid;
+    padding: 0 40px;
+    align-items: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 0.7rem;
+    color: var(--white);
+}
+
+.none-top {
+    margin-top: 0;
+}
+
+.rapid-graph {
+    display: flex;
+    align-items: center;
+    margin-left: 40px;
+    width: 90%;
+    height: 20%;
+}

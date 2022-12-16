@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- style --> 
+    <link rel="stylesheet" href="../public/style copy.css">
+
+    <!-- google-font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+
+</head>
+
+<body>
+    <div class="header-container heading-pos">
+        <!-- <div class="header-name"> <img class="data-icon"
+                src="https://www.chess.com//bundles/web/images/insights/icons/stats.svg" alt=""> Data Visualization |
+            Chess.com</div> -->
+        <div class="icon-text-container">
+            <img class="data-icon in-icons" src="https://www.chess.com//bundles/web/images/insights/icons/stats.svg"
+                alt="">
+            <div class="header-name">Data Visualization |
+                Chess.com</div>
+        </div>
+        <div></div>
+    </div>
+    <div class="big-container">
+        <div class="first-section">
+            <div class="profile-container">
+
+            </div>
+
+            <div class="game-rating-container">
+                <div class="container-name heading-pos">
+                    <div class="icon-text-container">
+                        <img class="data-icon in-icons"
+                            src="https://www.chess.com//bundles/web/images/insights/icons/rapid.svg" alt="">
+                        <div>Rating by game</div>
+                    </div>
+                    <div></div>
+                </div>
+
+                <div class="game-info-container">
+                    <div class="game-info-box">
+                        <div class="icon-text-container">
+                            <img class="data-icon in-icons"
+                                src="https://www.chess.com//bundles/web/images/insights/icons/rapid.svg" alt="">
+                            <h2>Rapid</h2>
+                        </div>
+
+                    </div>
+                    <div></div>
+                    <div class="game-info-box">
+                        <h2 class="high-low">Highest: 650</h2>
+                        <p class="date-rapid">23492923</p>
+                    </div>
+                    <div class="game-info-box">
+                        <h2 class="high-low">Lowest: 590</h2>
+                        <p class="date-rapid">1234335</p>
+                    </div>
+
+                </div>
+
+                <div class="rapid-graph">
+                    <canvas id="myChart"></canvas>
+                </div>
+
+
+                <div class="line-between"></div>
+
+
+
+            </div>
+
+            <div class="game-rating-container">
+                <div class="game-rating-container">
+                    <div class="container-name heading-pos">
+                        <div class="icon-text-container">
+                            <img class="data-icon in-icons"
+                                src="https://www.chess.com//bundles/web/images/insights/icons/rapid.svg" alt="">
+                            <div>Result Insights</div>
+                        </div>
+                        <div></div>
+                    </div>
+                </div>
+
+                <div class="game-info-container-multi">
+                    <div class="game-info-box">
+                        <div class="mulit-graph">
+                            <div class="icon-text-container">
+                                <img class="data-icon in-icons"
+                                    src="https://www.chess.com//bundles/web/images/insights/icons/rapid.svg" alt="">
+                                <h2>Wins as White</h2>
+                            </div>
+                            <div class="icon-text-container">
+                                <img class="data-icon in-icons"
+                                    src="https://www.chess.com//bundles/web/images/insights/icons/rapid.svg" alt="">
+                                <h2>Wins as Black</h2>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="rapid-graph"></div>
+                <div class="line-between"></div>
+                <div class="game-info-container-multi">
+                    <div class="game-info-box">
+                        <div class="mulit-graph">
+                            <div class="icon-text-container">
+                                <img class="data-icon in-icons"
+                                    src="https://www.chess.com//bundles/web/images/insights/icons/rapid.svg" alt="">
+                                <h2>Loss as White</h2>
+                            </div>
+                            <div class="icon-text-container">
+                                <img class="data-icon in-icons"
+                                    src="https://www.chess.com//bundles/web/images/insights/icons/rapid.svg" alt="">
+                                <h2>Lose as Black</h2>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="rapid-graph"></div>
+
+                
+            </div>
+
+
+
+
+        </div>
+
+
+
+
+        <div class="second-section">
+            <div class="game-rating-container">
+                <div class="container-name heading-pos">
+                    <div>
+                        Overall Status
+                    </div>
+                    <div></div>
+                </div>
+                <div class="game-info-container">
+                    <div class="game-info-box none-top">
+                        <div class="icon-text-container">
+                            <h2>Results</h2>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="list-container">
+                    <div class="list-item-container">
+                        <div class="icon-text-container">
+                            <img class="data-icon in-icons"
+                                src="https://www.chess.com//bundles/web/images/insights/icons/blitz.svg" alt="">
+                            <div class="list-item-text">Wins</div>
+                        </div>
+
+                        <div class="lits-item-bar">----------</div>
+                        <div class="list-item-value">57</div>
+                    </div>
+                    <div class="list-item-container">
+                        <div class="icon-text-container">
+                            <img class="data-icon in-icons"
+                                src="https://www.chess.com//bundles/web/images/insights/icons/blitz.svg" alt="">
+                            <div class="list-item-text">Wins</div>
+                        </div>
+
+                        <div class="lits-item-bar">----------</div>
+                        <div class="list-item-value">57</div>
+                    </div>
+                    <div class="list-item-container">
+                        <div class="icon-text-container">
+                            <img class="data-icon in-icons"
+                                src="https://www.chess.com//bundles/web/images/insights/icons/blitz.svg" alt="">
+                            <div class="list-item-text">Wins</div>
+                        </div>
+
+                        <div class="lits-item-bar">----------</div>
+                        <div class="list-item-value">57</div>
+
+                    </div>
+                    <div class="line-between"></div>
+
+                </div>
+
+
+
+
+                <div class="rapid-graph"></div>
+
+                <div class="line-between"></div>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+    <script>
+        const ctx = document.getElementById('myChart');
+        const label = [4188, 3692, 4547, 3482, 1096, 3743, 3460, 2542, 4749, 4163, 4103, 3689, 4345, 4346, 1098, 3563, 4994, 4432, 4225, 2540, 3307, 2685, 2031, 2851, 1376, 1126, 1291, 1956, 3980, 4032, 3344, 1371, 2174, 1425, 3482, 4752, 3259, 1568, 1869, 2796, 2752, 2361, 3163, 2757, 1778, 4314, 4026, 4669, 1056, 4314, 4934, 1073, 1470, 3616, 4581, 4035, 2446, 3384, 4374, 4822, 1759, 1825, 3059, 3892, 2950, 3489, 4538, 2249, 3569, 3973, 2396, 1899, 3680, 4265, 1982, 1744, 3339, 3580, 4888, 4026, 4422, 3223, 3333, 4077, 1798, 1170, 1629, 1139, 3300, 4139, 3412, 3120, 4444, 2638, 3363, 4032, 3943, 4269, 2406, 4296, 4541, 2288, 3029, 3974, 1716, 4734, 2814, 2204, 2867, 2193, 1279, 3585, 2361, 3307, 2657, 3135, 3557, 3485, 1852, 2704, 3769, 2829, 1878, 2600, 4069, 2191, 1935, 1873, 4650, 1625, 3929, 4534, 1652, 4510, 3489, 2155, 4479, 4514, 4178, 1509, 4638, 3649, 3033, 2252, 3397, 4433, 3102, 4043, 4470, 4853, 3463, 2211, 2626, 3148, 1150, 4046, 1587, 2793, 4241, 1486, 1467, 1195, 3704, 2433, 1107, 2162, 1643, 3724, 2120, 3918, 4746, 4138, 2721, 4176, 4752, 3372, 4309, 2373, 2643, 1014, 3274, 2584, 1481, 2033, 2105, 2861, 2877, 4525, 2254, 2891, 4168, 1489, 1354, 4968, 4619, 3692, 1678, 1652, 2123, 1390];
+
+        const data = {
+            labels: label,
+            datasets: [{
+                data: [326, 144, 343, 106, 422, 153, 376, 303, 149, 151, 326, 351, 427, 430, 133, 203, 460, 297, 318, 104, 227, 211, 416, 409, 305, 464, 387, 229, 217, 168, 471, 293, 434, 151, 334, 272, 381, 152, 110, 358, 425, 369, 423, 310, 458, 163, 106, 181, 224, 326, 434, 399, 244, 146, 208, 190, 448, 486, 367, 498, 491, 123, 217, 266, 222, 439, 253, 220, 494, 158, 319, 491, 229, 472, 396, 440, 368, 139, 405, 256, 487, 319, 320, 403, 260, 282, 147, 210, 301, 331, 227, 185, 108, 243, 315, 341, 326, 251, 109, 279, 384, 206, 294, 471, 397, 212, 427, 241, 270, 406, 321, 190, 313, 302, 430, 149, 388, 343, 228, 160, 320, 178, 192, 325, 204, 180, 101, 196, 166, 432, 218, 124, 347, 114, 314, 355, 207, 330, 101, 199, 495, 100, 480, 280, 389, 447, 315, 335, 239, 114, 122, 367, 153, 173, 485, 491, 167, 240, 370, 490, 499, 121, 102, 262, 186, 239, 493, 264, 470, 197, 125, 293, 157, 241, 374, 493, 352, 313, 176, 227, 343, 321, 192, 450, 329, 362, 122, 439, 223, 422, 298, 405, 375, 416, 338, 196, 467, 333, 420, 165],
+                fill: true,
+                backgroundColor: "#7cb5ec",
+                borderColor: '#7cb5ec',
+                borderWidth: 1,
+            }]
+        };
+        // backgroundchartAread plugin block
+        const backgroundChartArea = {
+            id: "backgorundChartArea",
+            beforeDatasetsDraw(chart, args, options) {
+                console.log(chart);
+            }
+        }
+        const config = {
+            type: 'bar',
+            data: data,
+            options: {
+                responsive: true,
+                radius: 0,
+
+                scales: {
+                    x: {
+                        grid: {
+                            display: false,
+                            color: "#363431"
+                        }
+                    },
+                    y: {
+                        grid: {
+                            color: "#363431",
+                            
+                        },
+                        ticks: {
+                            callback: function (value) {
+                                return "$" + value;
+                            }
+                        },
+
+                        beginAtZero: true
+                    },
+
+                },
+                plugins: {
+                    legend: {
+                        display: false
+                    }
+                }
+            }
+        };
+
+        new Chart(ctx, config); 
+    </script>
+</body>
+
+</html>
